@@ -21,7 +21,7 @@ import java.io.InputStreamReader;
 
 public final class GoogleTranslator extends AbstractTranslator {
 
-    private static final String url = "https://translate.google.cn/translate_a/single";
+    private static final String url = "https://translate.google.com/translate_a/single";
 
     public GoogleTranslator() {
         super(url);
